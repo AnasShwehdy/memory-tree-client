@@ -7,6 +7,9 @@ const routes = [
     {
         path: '/history', name: 'History',  component: () => import('@/views/History.vue')
     },
+    {
+        path: '/code', name: 'Code',  component: () => import('@/views/Code.vue')
+    },
 ]
 
 const router = createRouter({

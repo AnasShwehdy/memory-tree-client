@@ -10,7 +10,7 @@ import { RouterView, RouterLink } from 'vue-router'
     justify-content: space-evenly;
 ">
       <router-link to="/">Home</router-link>
-      <router-link to="/history">History</router-link>
+      <router-link to="/code">Encoding</router-link>
     </div>
 
     <div style="margin:80px;">

@@ -42,7 +42,7 @@ onMounted(() => {
     sr.onstart = () => {
         console.log('SR Started')
         isRecording.value = true
-        store.dispatch('createTree')
+        // store.dispatch('createTree')
 
     }
 
@@ -106,7 +106,7 @@ const saveTree = () => {
 const ToggleMic = () => {
     if (isRecording.value) {
         sr.stop()
-        saveTree()
+        // saveTree()
     } else {
         tree.value = []
         sr.start()
