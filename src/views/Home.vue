@@ -1,5 +1,5 @@
 <template>
-    <h1>Click Start, and say random words!</h1>
+    <h3>Click Start, and say random words!</h3>
     <div style="padding-top: 90px;">
         <button v-if="!isRecording && tree.length == 0" :class="`mic`" @click="ToggleMic">Start</button>
         <div v-for="(mem, i) in tree" :key="i">
